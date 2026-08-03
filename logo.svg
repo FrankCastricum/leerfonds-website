@@ -1,0 +1,30 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Linkerfiguur (navy) -->
+  <circle cx="54" cy="46" r="21" fill="#16305c"/>
+  <path d="M 18 132
+           C 10 92, 32 54, 76 42
+           C 60 58, 50 84, 54 112
+           C 57 136, 68 152, 88 163
+           C 54 165, 24 156, 18 132 Z" fill="#16305c"/>
+
+  <!-- Rechterfiguur (groen) -->
+  <circle cx="146" cy="46" r="21" fill="#6fbf3f"/>
+  <path d="M 182 132
+           C 190 92, 168 54, 124 42
+           C 140 58, 150 84, 146 112
+           C 143 136, 132 152, 112 163
+           C 146 165, 176 156, 182 132 Z" fill="#6fbf3f"/>
+
+  <!-- Kleine middelste figuur (groen) -->
+  <circle cx="100" cy="88" r="13" fill="#6fbf3f"/>
+
+  <!-- Open boek -->
+  <path d="M 100 176 L 100 116
+           C 85 106, 60 101, 39 106
+           L 39 164
+           C 60 159, 85 164, 100 176 Z" fill="#16305c"/>
+  <path d="M 100 176 L 100 116
+           C 115 106, 140 101, 161 106
+           L 161 164
+           C 140 159, 115 164, 100 176 Z" fill="#6fbf3f"/>
+</svg>
