@@ -1,0 +1,11 @@
+Zet hier de downloadbare bijlagen neer die bij het aanvraagformulier op de website horen.
+
+Gebruik precies deze bestandsnamen, dan werken de downloadknoppen op de site meteen:
+
+- dekkingsplan-begroting.pdf   (sjabloon/voorbeeld dekkingsplan/begroting)
+- aanvullend-document.pdf      (extra informatie, foto's etc.; vervang dit door het document dat je
+                                 wilt aanbieden; pas zo nodig ook de titel en omschrijving aan in
+                                 index.html, sectie "Subsidie aanvragen")
+
+Let op: dit bestand (LEESMIJ.txt) mag je laten staan of verwijderen, dat heeft geen invloed op de site.
+Werk deze map bij in zowel de OneDrive- als de Dropbox-versie van de website.
