@@ -244,7 +244,7 @@
       </ul>
 
       <div id="aanvraagformulier"></div>
-      <form id="subsidy-form" class="form-card" action="https://formsubmit.co/frankcastricum58@gmail.com" method="POST">
+      <form id="subsidy-form" class="form-card" action="https://formsubmit.co/frankcastricum58@gmail.com" method="POST" enctype="multipart/form-data">
         <!-- FormSubmit configuratie -->
         <input type="hidden" name="_subject" value="Nieuwe subsidieaanvraag — Leerfonds.nl">
         <input type="hidden" name="_template" value="table">
@@ -357,27 +357,12 @@
           <textarea id="opmerkingen" name="Aanvullende opmerkingen" placeholder="Wilt u nog meer delen, meld het hier"></textarea>
         </div>
 
-        <div class="downloads-card" style="margin:30px 0;">
-          <h3 class="mt-0">Bijlagen om te downloaden</h3>
-          <p>Handig bij het invullen van uw aanvraag:</p>
-          <ul class="download-list">
-            <li class="download-item">
-              <div class="download-icon">📄</div>
-              <div class="download-info">
-                <h4>Dekkingsplan/begroting</h4>
-                <p>Download hier uw begroting en/of dekkingsplan.</p>
-              </div>
-              <a class="btn btn-outline btn-sm" href="bijlagen/dekkingsplan-begroting.pdf" download>Download</a>
-            </li>
-            <li class="download-item">
-              <div class="download-icon">📄</div>
-              <div class="download-info">
-                <h4>Aanvullende documenten</h4>
-                <p>Extra informatie, foto's etc.</p>
-              </div>
-              <a class="btn btn-outline btn-sm" href="bijlagen/aanvullend-document.pdf" download>Download</a>
-            </li>
-          </ul>
+        <h4 class="form-section-title">Sectie 5 — Bijlagen</h4>
+
+        <div class="form-group full">
+          <label for="bijlagen">Bijlagen ter versterking van uw aanvraag</label>
+          <input type="file" id="bijlagen" name="Bijlagen" multiple accept=".pdf,.jpg,.jpeg,.png,.doc,.docx">
+          <p class="form-hint" style="margin-top:8px;">Bijvoorbeeld een offerte, foto's of een projectplan. Toegestaan: PDF, Word, JPG of PNG, max. 5 MB per bestand.</p>
         </div>
 
         <div class="form-group full">
